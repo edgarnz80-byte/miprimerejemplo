@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú lateral desplegable</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- El menú aparece cuando el cursor entra en esta zona -->
+    <nav class="menu-lateral" aria-label="Menú principal">
+        <div class="menu-contenido">
+            <h2 class="logo">Menu</h2>
+            <ul>
+                <li><a href="index.html"><span class="icono">🏠</span>Inicio</a></li>
+                <li><a href="Pozole.html"><span class="icono">🍲</span>Pozole</a></li>
+                <li><a href="Tamal.html"><span class="icono">🫔</span>Tamal</a></li>
+                <li><a href="Tacos.html"><span class="icono">🌮</span>Tacos</a></li>
+                <li><a href="Tlayuda.html"><span class="icono">🥟</span>Tlayudas</a></li>
+            </ul>
+        </div>
+        <div class="pestaña" aria-hidden="true">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <main class="contenido">
+        <section id="inicio" class="portada">
+            <p class="etiqueta">¡BIENVEVENIDO!</p>
+            <h1>Comida mexicana</h1>
+            <center><img src="CHEFMEX.jpg" height="100" width="100" border="1"></center>
+
+        </section>
+
+        <section id="nosotros" class="tarjeta">
+            <h2>Comida mexicana</h2>
+            <p align="justify">La cocina mexicana constituye uno de los puntos de referencia más aclamados a nivel internacional como una de las cocinas más coloridas y de sabores tan vivaces como los atardeceres en la península de Yucatán. 
+No hay duda alguna que conocer todo sobre la comida mexicana es un privilegio que todo turista debería tener el placer de apreciar y, aún más importante, de aprender. La comida mexicana ha sido increíblemente influenciada de los sabores más diversos que hoy en día se ven representados por exquisitos platillos tan únicos como deliciosos.
+Es así como, la cocina tradicional mexicana guarda en sus raíces innumerables antecedentes, que le conceden su inconfundible esencia y exquisito sabor. Con solo probar sus platos puede transportar rápidamente desde las lejanías hasta las fértiles tierras mexicanas.  Acompáñanos a descubrir lo mejor de la cocina mexicana.
+</p>
+        </section>
+
+        <section id="servicios" class="tarjeta">
+            <h2>Para saber mas puedes ver el siguiente video</h2>
+            <p><video width="640" height="360" controls>
+            <source src="video_comidamex.mp4" type="video/mp4">
+            </video><br><br>
+            
+        </section>
+
+        <section id="galeria" class="tarjeta">
+            <h2>Y aqui puedes escuchar una tipica cancion mexicana</h2>
+            <p><audio controls preload="auto">
+            <source src="musica_mexicana.mp3" type="audio/mp3">
+            </audio></p></p>
+        </section>
+    </main>
+</body>
+</html>
